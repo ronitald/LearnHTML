@@ -1,0 +1,25 @@
+/* https://codepen.io/enxaneta/full/adLPwv */
+/* Styles for Flexbox*/
+
+.contenedor {
+    display: flex;
+    background-color: yellow;
+    gap: 0.5rem;
+    padding: 0.5rem;
+    min-height: 5rem;
+    flex-direction: column;
+    /* EJE PRINCIPAL USA LA PROPIEDAD: justify-content */
+    justify-content: space-around;
+    /* EJE SECUNDARIO USA LA PROPIEDAD: align-items */
+    align-items: center;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+}
+.item {
+    background-color: cornflowerblue;
+    padding: 0.25rem;
+    width: 10rem;
+}
+.item-2 {
+    align-self: stretch;
+}
