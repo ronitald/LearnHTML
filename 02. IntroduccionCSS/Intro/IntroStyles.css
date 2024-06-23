@@ -1,0 +1,38 @@
+/* Estilos para colores */
+
+.colores {
+    color: #DB7093;
+}
+.color_hexadecimal {
+    color: #1E90FF; 
+}
+.color_rgb {
+    color: rgb(70, 130, 180); 
+}
+.color_rgba {
+    color: rgba(255, 165, 0, 0.7);
+}
+.fondo {
+    background-color: #6B8E23; 
+    background-image: none;
+    background-position: center;
+}
+.fondo_interno {
+    background: url("/02. IntroduccionCSS/Images/background.png");
+}
+.ancho {
+    background-color: #FF6347;
+    width: 200px;
+}
+.alto {
+    background-color: #8A2BE2;
+    width: 200px;
+    height: 300px;
+}
+.tarjeta {
+    border-style: solid;
+    border-color: #DC143C;
+    border-width: 5px;
+    padding: 15px;
+    margin: 10px 0;
+}

@@ -1,0 +1,35 @@
+/* Estoy aprendiendo colores y tamaños de fuentes */
+
+h1 {
+    color: red;
+}
+p {
+    color: darkblue;
+    font-size: 20pt;
+}
+h2 {
+    color: brown;
+}
+/* "#" Para selectores de id */
+p#primera_noticia {
+    color: blueviolet;
+    font-size: 15pt;
+}
+p#segunda_noticia {
+    color: chartreuse;
+    font-size: 15pt;
+}
+/* "." Para selectores de clase */
+.encabezado {
+    color: black;
+    text-transform: uppercase;
+}
+/* "*." (Selector Universal) Para todos los elementos 
+que cumplan una serie de condiciones */
+*.peligro {
+    color: rgb(186, 50, 50);
+}
+/* Agregando un mismo estilo a varios atributos */
+.autor, .fecha, .ubicacion {
+    text-decoration: underline;
+}
