@@ -1,0 +1,72 @@
+
+.input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #4CAF50; 
+    border-radius: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+.input[type="password"] {
+    color: #8B4513; 
+}
+.input-moderno {
+    border: none;
+    border-bottom: 2px solid #FFD700; 
+    outline: none;
+    padding: 8px;
+    color: black;
+    transition: border-bottom 0.3s; 
+}
+.input-moderno:focus {
+    border-bottom: 2px solid #00BFFF; 
+}
+.input-moderno::placeholder {
+    color: #A9A9A9; 
+}
+.input-background {
+    background-color: #4682B4;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    outline: none;
+    color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+}
+.input-background::placeholder {
+    color: #FFFFFF; 
+}
+.input-search {
+    padding: 12px;
+    padding-left: 40px;
+    border: 2px solid #FF6347; 
+    background-color: white;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    background-image: url('../Imagenes/Lupa.png');
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    box-sizing: border-box; 
+}
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #32CD32;
+    border-radius: 8px;
+    resize: none; 
+}
+select {
+    width: 100%;
+    padding: 12px;
+    background-color: #FFA500;
+    border: 2px solid #FFA500;
+    border-radius: 8px;
+    color: white;
+    appearance: none;
+    outline: none;
+}
+select option {
+    padding: 10px;
+    background-color: white;
+    color: #FFA500;
+}
