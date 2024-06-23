@@ -1,0 +1,56 @@
+<!-- https://www.w3schools.com/css/css_pseudo_classes.asp -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Pseudo - Clases</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        .hover {
+            width: 300px;
+            height: 100px;
+            background-color: yellowgreen;
+        }
+        .hover:hover { /* SE ACTIVA EN CUANTO EL RATON PASA POR ENCIMA */
+            background-color: yellow;
+        }
+        .listado {
+            padding: 15px;
+            background-color: cadetblue;
+        }
+        .listado p:first-child {
+            color: crimson;
+        }
+        a:link {
+            color: chartreuse;
+        }
+        a:visited {
+            color: tomato;
+        }
+        a:hover {
+            color: purple;
+        }
+        a:active {
+            color: yellowgreen;
+        }
+    </style>
+</head>
+<body>
+    <div class="hover">
+        <p>La inteligencia artificial ha transformado radicalmente la forma 
+            en que interactuamos con la tecnología. 
+        </p>
+    </div>
+    <div class="listado">
+        <p>PARRAFO 1</p>
+        <p>PARRAFO 2</p>
+        <p>PARRAFO 3</p>
+    </div>
+    <div class="enlaces">
+        <a href="https://github.com/" target="_blank"> Git Hub</a>
+    </div>
+</body>
+</html>

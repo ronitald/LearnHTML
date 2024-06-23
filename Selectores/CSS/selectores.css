@@ -1,0 +1,12 @@
+
+/* Anidacion de Selectores */
+.p-contenedor {
+    color: yellow;
+}
+/* Todos los parrafos que esten dentro del div */
+.contenedor p {
+    color: blue;
+}
+.contenedor #boton-contenedor {
+    background-color: yellowgreen;
+}

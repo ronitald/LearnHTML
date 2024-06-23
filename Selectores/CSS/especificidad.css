@@ -1,0 +1,16 @@
+
+/* Especificidad del selector: (0, 0, 1) */
+h1 {
+    color: blueviolet; /* !important; Siempre preovalecera sobre los demas*/   
+}
+/* Especificidad del selector: (0, 1, 0) */
+.h1-class {
+    color: chartreuse;
+}
+/* Especificidad del selector: (1, 0, 0) Prevalece primero */ 
+#h1-id {
+    color: brown;
+}
+p{
+    color: blue;
+}
