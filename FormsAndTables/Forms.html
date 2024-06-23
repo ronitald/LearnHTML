@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Forms</title>
+</head>
+<body>
+    <!-- Formulario para enviar datos -->
+    <form action="Results.html" method="get">
+        <!-- Campo para el nombre de usuario -->
+        <div>
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" required>
+        </div>
+        <br>
+        <!-- Campo para la contraseña -->
+        <div>
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+        </div>
+        <br>
+        <!-- Campo para la edad -->
+        <div>
+            <label for="age">Age</label>
+            <input type="number" id="age" name="age" min="0" max="100" step="5" required>
+        </div>
+        <br>
+        <!-- Campo para la fecha de nacimiento -->
+        <div>
+            <label for="birthdate">Date of Birth</label>
+            <input type="date" id="birthdate" name="birthdate">
+        </div>
+        <br>
+        <!-- Campo para el correo electrónico -->
+        <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <br>
+        <!-- Área de texto para comentarios -->
+        <div>
+            <label for="comments">Comments</label>
+            <textarea id="comments" name="comments"></textarea>
+        </div>
+        <br>
+        <!-- Botones para enviar y resetear el formulario -->
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
