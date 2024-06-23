@@ -1,0 +1,36 @@
+
+.contenedor-hidden {
+    background-color: darkcyan;
+    width: 300px;
+    height: 110px;
+    padding: 10px;
+    overflow: hidden;
+}
+.contenedor-scroll {
+    margin: 10px 0px;
+    background-color: darkcyan;
+    width: 300px;
+    height: 110px;
+    padding: 10px;
+    overflow: scroll;
+    /* Solo mostrar el scroll lateral
+    overflow-x: hidden;
+    overflow-y: scroll; */
+}
+.contenedor-visible {
+    margin: 10px 0px;
+    background-color: darkcyan;
+    width: 300px;
+    height: 110px;
+    padding: 10px;
+    overflow: visible;
+}
+.contenedor-auto {
+    position: relative;
+    margin: 10px 0px;
+    background-color: darkcyan;
+    width: 300px;
+    height: 110px;
+    padding: 10px;
+    overflow: auto;
+}

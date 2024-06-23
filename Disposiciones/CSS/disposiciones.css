@@ -1,0 +1,20 @@
+
+.div_1, .div_2 {
+    background-color: royalblue;
+    /* display: block; POR DEFECTO*/
+}
+.img {
+    width: 400px;
+    height: 200px;
+    /* display: inline-block; POR DEFECTO*/
+}
+.span_1{
+    background-color: yellow;
+    /* display: inline; POR DEFECTO*/
+    float: left;
+} 
+.span_2 {
+    background-color: yellow;
+    float: right;
+    /* display: inline; POR DEFECTO*/
+}

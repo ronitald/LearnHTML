@@ -1,0 +1,51 @@
+
+/* Estilos generales para todos los divs */
+div {
+    border: 1px solid green; 
+    padding: 5px; 
+    margin: 5px; 
+    background-color: white;
+}
+
+/* Estilo para posicionamiento relativo:
+Se posiciona en relacion al posicionamiento original */ 
+.relative {
+    position: relative; 
+    left: 40px; 
+    margin-left: 10px; 
+}
+
+/* Estilo para posicionamiento fijo:
+Se relaciona en posicion a la pantalla */ 
+.fixed {
+    position: fixed; 
+    bottom: 0px; 
+    left: 0px; 
+    background-color: yellow; 
+    z-index: 10; 
+}
+
+/* Estilo para posicionamiento absoluto:
+Fijado en relación al primer padre con posición relativa o al cuerpo */
+.absolute {
+    position: absolute; 
+    top: 0px; 
+    right: 0px;
+}
+
+/* Estilo para posicionamiento pegajoso:
+Al hacer scroll modifica su posicionamiento relative-fixed */
+.sticky {
+    position: sticky; 
+    background-color: darkolivegreen; 
+    color: white; 
+    top: 0px; 
+    z-index: 2; 
+}
+
+/* Estilos específicos para un div con clase 'contenedor' y posición relativa */
+.relative.contenedor {
+    width: 300px;
+    height: 400px; 
+    background-color: cornflowerblue; 
+}
