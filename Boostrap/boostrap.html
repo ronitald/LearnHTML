@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Example</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    
+    <!-- Custom CSS -->
+    <style>
+        .relleno {
+            background-color: yellowgreen;
+            border: 1px solid white;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Contenedor principal con fondo cadetblue -->
+    <div class="container" style="background-color: cadetblue;">
+        <h1>Hola Ronitald</h1>
+    </div>
+    
+    <!-- Primera fila con tres columnas -->
+    <div class="row">
+        <div class="col relleno">Columna 1</div>
+        <div class="col relleno">Columna 2</div>
+        <div class="col-6 relleno">Columna 3 más ancha</div>
+    </div>
+    
+    <!-- Segunda fila con dos columnas, usando responsive classes -->
+    <div class="row">
+        <div class="col-3 col-md-6 relleno">Columna 1 ampliada en dispositivos grandes</div>
+        <div class="col relleno">Columna 2</div>
+    </div>
+    
+    <!-- Contenedor secundario con botón centrado -->
+    <div class="container">
+        <div class="row justify-content-center">
+            <button type="button" class="btn btn-success col-3">Success</button>
+        </div>
+    </div>
+    
+    <!-- Bootstrap JavaScript bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
