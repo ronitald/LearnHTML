@@ -1,0 +1,44 @@
+/* Styles for animations */
+
+.parent {
+    width: 400px;
+    height: 400px;
+    background-color: yellowgreen;
+    border-radius: 12px;
+}
+.child {
+    width: 50%;
+    height: 50%;
+    background-color: teal;
+    border-radius: 12px;
+    /* transition: transform 1s ease-in 2s; */
+    animation: translation 3s ease-in-out forwards infinite alternate;
+}
+.parent:hover .child {
+    /* transform: translateX(100%); */
+    /* background-color: cadetblue; */
+    animation-play-state: paused;
+}
+
+@keyframes translation {
+    0% {
+        background-color: tomato;
+        transform: translate(0%, 0%);
+    }
+    25% {
+        background-color: tomato;
+        transform: translateX(100%);
+    }
+    50% {
+        background-color: brown;
+        transform: translateX(100%) translateY(100%);
+    }
+    75% {
+        background-color: tomato;
+        transform: translateY(100%);
+    }
+    100% {
+        background-color: brown;
+        transform: translate(0%, 0%);
+    }
+}
